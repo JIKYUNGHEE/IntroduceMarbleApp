@@ -1,29 +1,34 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.application'
 
 android {
-    compileSdk 32
-
+    compileSdkVersion 32
+    buildToolsVersion "32.0.0"
+    dataBinding {
+        enabled = true
+    }
     defaultConfig {
-        applicationId "kr.co.ganeg.introducemarbleapp"
-        minSdk 23
-        targetSdk 32
+        applicationId "com.example.lifcaremarvel"
+        minSdkVersion 15
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        abortOnError false
     }
 }
 
@@ -32,7 +37,19 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.0'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation "androidx.recyclerview:recyclerview:1.1.0-alpha04"
+    implementation "androidx.fragment:fragment:1.1.0-alpha06"
+
+    //Network
+    implementation "com.squareup.retrofit2:retrofit:2.3.+"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.+"
+    implementation "com.squareup.okhttp3:logging-interceptor:3.8.+"
+
+    //Test
     testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-inline:2.13.0'
+    testImplementation "org.mockito.kotlin:mockito-kotlin:4.0.0"
+
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
