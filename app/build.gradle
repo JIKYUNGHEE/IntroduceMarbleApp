@@ -7,6 +7,9 @@ plugins {
     id 'androidx.navigation.safeargs.kotlin'
 }
 
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
 android {
     compileSdkVersion 32
     buildToolsVersion "32.0.0"
@@ -37,6 +40,14 @@ android {
     lintOptions {
         abortOnError false
     }
+}
+
+def MARVEL_PRIVATE_KEY = properties['api.marvel.private.key']
+def MARVEL_PUBLIC_KEY = properties['api.marvel.public.key']
+
+android.buildTypes.each { type ->
+    type.buildConfigField "String", "MARVEL_PRIVATE_KEY", "\"$MARVEL_PRIVATE_KEY\""
+    type.buildConfigField "String", "MARVEL_PUBLIC_KEY", "\"$MARVEL_PUBLIC_KEY\""
 }
 
 dependencies {
