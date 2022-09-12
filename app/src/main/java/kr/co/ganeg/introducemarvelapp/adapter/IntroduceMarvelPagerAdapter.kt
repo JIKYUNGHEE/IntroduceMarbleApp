@@ -1,14 +1,14 @@
-package kr.co.ganeg.introducemarbleapp.adapter
+package kr.co.ganeg.introducemarvelapp.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import kr.co.ganeg.introducemarbleapp.CharacterListFragment
-import kr.co.ganeg.introducemarbleapp.MyFavoriteListFragment
+import kr.co.ganeg.introducemarvelapp.CharacterListFragment
+import kr.co.ganeg.introducemarvelapp.MyFavoriteListFragment
 
 const val CHARACTER_LIST_PAGE_INDEX = 0
 const val MY_FAVORITE_IST_PAGE_INDEX = 1
 
-class IntroduceMarblePagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
+class IntroduceMarvelPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
 
     /**
      * Mapping of the ViewPager page indexes to their respective Fragments

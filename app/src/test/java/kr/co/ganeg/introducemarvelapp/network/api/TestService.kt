@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarbleapp.network.api
+package kr.co.ganeg.introducemarvelapp.network.api
 
 import kr.co.tapplace.network.TestRetrofitClient
 import retrofit2.Call

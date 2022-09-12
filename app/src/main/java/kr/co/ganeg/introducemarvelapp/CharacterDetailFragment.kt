@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarbleapp
+package kr.co.ganeg.introducemarvelapp
 
 import androidx.fragment.app.Fragment
 

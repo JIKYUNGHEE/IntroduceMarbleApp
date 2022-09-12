@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.IntroduceMarbleApp.NoActionBar">
+    <style name="Theme.IntroduceMarvelApp.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="windowActionBarOverlay">true</item>
-        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Sunflower.FAB</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.IntroduceMarvel.FAB</item>
     </style>
 
 </resources>

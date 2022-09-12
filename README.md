@@ -1,4 +1,4 @@
-# IntroduceMarbleApp
+# IntroduceMarvel App
 마블 캐릭터 소개 앱
 
 
