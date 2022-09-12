@@ -3,4 +3,5 @@
     <string name="character_details_title">캐릭터소개</string>
     <string name="character_list_title">Marvel Characters</string>
     <string name="my_favorite_list_title">My Favorites</string>
+    <string name="a11y_character_item_image">Character Thumbnail</string>
 </resources>

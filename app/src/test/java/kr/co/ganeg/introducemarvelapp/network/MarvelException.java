@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarbleapp.network;
+package kr.co.ganeg.introducemarvelapp.network;
 
 public class MarvelException extends Exception {
 

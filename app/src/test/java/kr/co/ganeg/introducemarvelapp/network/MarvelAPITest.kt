@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarbleapp.network
+package kr.co.ganeg.introducemarvelapp.network
 
 import org.junit.Before
 import org.junit.Test

@@ -1,6 +1,6 @@
-package kr.co.ganeg.introducemarbleapp.network.api;
+package kr.co.ganeg.introducemarvelapp.network.api;
 
-import kr.co.ganeg.introducemarbleapp.api.data.CharacterDataWrapper;
+import kr.co.ganeg.introducemarvelapp.api.data.CharacterDataWrapper;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

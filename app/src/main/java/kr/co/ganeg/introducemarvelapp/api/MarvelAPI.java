@@ -1,8 +1,10 @@
-package kr.co.ganeg.introducemarbleapp.api;
+package kr.co.ganeg.introducemarvelapp.api;
 
-import kr.co.ganeg.introducemarbleapp.BuildConfig;
-import kr.co.ganeg.introducemarbleapp.api.auth.AuthenticatorInterceptor;
-import kr.co.ganeg.introducemarbleapp.api.data.CharacterDataWrapper;
+import kr.co.ganeg.introducemarvelapp.BuildConfig;
+import kr.co.ganeg.introducemarvelapp.api.auth.AuthenticatorInterceptor;
+import kr.co.ganeg.introducemarvelapp.api.data.CharacterDataWrapper;
+import kr.co.ganeg.introducemarvelapp.service.CharacterService;
+import kr.co.ganeg.introducemarvelapp.service.MarvelService;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import okhttp3.logging.HttpLoggingInterceptor.Level;

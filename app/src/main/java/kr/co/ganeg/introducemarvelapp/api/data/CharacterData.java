@@ -1,4 +1,6 @@
-package kr.co.ganeg.introducemarbleapp.api.data;
+package kr.co.ganeg.introducemarvelapp.api.data;
+
+import java.util.Arrays;
 
 public class CharacterData {
 
@@ -49,5 +51,20 @@ public class CharacterData {
 
     public Url[] getUrls() {
         return urls;
+    }
+
+    @Override
+    public String toString() {
+        return "CharacterData{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", thumbnail=" + thumbnail +
+                ", comics=" + comics +
+                ", series=" + series +
+                ", stories=" + stories +
+                ", events=" + events +
+                ", urls=" + Arrays.toString(urls) +
+                '}';
     }
 }

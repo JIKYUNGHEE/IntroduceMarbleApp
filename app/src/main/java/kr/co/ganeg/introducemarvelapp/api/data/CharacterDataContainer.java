@@ -1,4 +1,6 @@
-package kr.co.ganeg.introducemarbleapp.api.data;
+package kr.co.ganeg.introducemarvelapp.api.data;
+
+import java.util.Arrays;
 
 public class CharacterDataContainer {
     private int offset;
@@ -15,5 +17,14 @@ public class CharacterDataContainer {
 
     public CharacterData[] getResults() {
         return results;
+    }
+
+    @Override
+    public String toString() {
+        return "CharacterDataContainer{" +
+                "offset=" + offset +
+                ", total=" + total +
+                ", results=" + Arrays.toString(results) +
+                '}';
     }
 }

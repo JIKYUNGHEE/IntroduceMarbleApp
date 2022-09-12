@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarbleapp.api;
+package kr.co.ganeg.introducemarvelapp.api;
 
 import retrofit2.Call;
 import retrofit2.Callback;

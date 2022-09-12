@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarbleapp.api.data;
+package kr.co.ganeg.introducemarvelapp.api.data;
 
 public class CharacterDataWrapper {
     private String attributionText;
@@ -10,5 +10,13 @@ public class CharacterDataWrapper {
 
     public CharacterDataContainer getData() {
         return data;
+    }
+
+    @Override
+    public String toString() {
+        return "CharacterDataWrapper{" +
+                "attributionText='" + attributionText + '\'' +
+                ", data=" + data +
+                '}';
     }
 }

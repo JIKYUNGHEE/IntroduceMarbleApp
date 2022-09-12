@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarbleapp.api.auth;
+package kr.co.ganeg.introducemarvelapp.api.auth;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
