@@ -1,7 +1,7 @@
 package kr.co.tapplace.network
 
 import androidx.lifecycle.MutableLiveData
-import kr.co.ganeg.introducemarbleapp.BuildConfig
+import kr.co.ganeg.introducemarvelapp.BuildConfig
 import okhttp3.ConnectionPool
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarbleapp;
+package kr.co.ganeg.introducemarvelapp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("kr.co.ganeg.introducemarbleapp", appContext.getPackageName());
+        assertEquals("kr.co.ganeg.introducemarvelapp", appContext.getPackageName());
     }
 }

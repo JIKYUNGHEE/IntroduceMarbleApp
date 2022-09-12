@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/view_pager_fragment"
-        android:name="kr.co.ganeg.introducemarbleapp.HomeViewPagerFragment"
+        android:name="kr.co.ganeg.introducemarvelapp.HomeViewPagerFragment"
         tools:layout="@layout/fragment_view_pager">
 
         <action
@@ -36,7 +36,7 @@
 
     <fragment
         android:id="@+id/character_detail_fragment"
-        android:name="kr.co.ganeg.introducemarbleapp.CharacterDetailFragment"
+        android:name="kr.co.ganeg.introducemarvelapp.CharacterDetailFragment"
         android:label="@string/character_details_title"
         tools:layout="@layout/fragment_character_detail">
 
@@ -54,7 +54,7 @@
 
     <fragment
         android:id="@+id/character_list_fragment"
-        android:name="kr.co.ganeg.introducemarbleapp.CharacterListFragment"
+        android:name="kr.co.ganeg.introducemarvelapp.CharacterListFragment"
         android:label="@string/character_list_title"
         tools:layout="@layout/">
         <argument

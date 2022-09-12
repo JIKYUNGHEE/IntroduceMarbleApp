@@ -17,7 +17,7 @@ android {
         enabled = true
     }
     defaultConfig {
-        applicationId "com.example.lifcaremarvel"
+        applicationId "kr.co.ganeg.introducemarvelapp"
         minSdkVersion 15
         targetSdkVersion 32
         versionCode 1
