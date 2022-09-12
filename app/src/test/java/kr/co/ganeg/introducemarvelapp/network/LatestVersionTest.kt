@@ -1,7 +1,7 @@
 package kr.co.tapplace.network
 
-import kr.co.ganeg.introducemarbleapp.network.api.LatestVersion
-import kr.co.ganeg.introducemarbleapp.network.api.TestService
+import kr.co.ganeg.introducemarvelapp.network.api.LatestVersion
+import kr.co.ganeg.introducemarvelapp.network.api.TestService
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith

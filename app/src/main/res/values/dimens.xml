@@ -4,7 +4,7 @@
     <dimen name="card_bottom_margin">26dp</dimen>
     <dimen name="card_elevation">2dp</dimen>
     <dimen name="card_corner_radius">12dp</dimen>
-    <dimen name="character_list_header_margin">72</dimen>
-    <dimen name="header_margin">24</dimen>
-    <dimen name="margin_normal">16</dimen>
+    <dimen name="character_list_header_margin">72dp</dimen>
+    <dimen name="header_margin">24dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
 </resources>
