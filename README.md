@@ -7,14 +7,12 @@
 - minSdk : 23
 - targetSdk: 32
 - Architecture: MVVM
-- Language: Java
+- Language: Java, Kotlin
 
 ## Used Libraries and Tools
-- RxJava
 - Android Jetpack
   - DataBinding
   - ViewModel
   - LiveData
-  - Room
 - Retrofit
 - Glide
