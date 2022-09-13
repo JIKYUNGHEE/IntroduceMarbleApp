@@ -13,7 +13,6 @@ import kr.co.ganeg.introducemarvelapp.adapter.IntroduceMarvelPagerAdapter
 import kr.co.ganeg.introducemarvelapp.adapter.MY_FAVORITE_IST_PAGE_INDEX
 import kr.co.ganeg.introducemarvelapp.databinding.FragmentViewPagerBinding
 
-@AndroidEntryPoint
 class HomeViewPagerFragment : Fragment() {
 
     override fun onCreateView(

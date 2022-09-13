@@ -4,4 +4,10 @@
     <string name="character_list_title">Marvel Characters</string>
     <string name="my_favorite_list_title">My Favorites</string>
     <string name="a11y_character_item_image">Character Thumbnail</string>
+    <string name="character_item_info_url">URL</string>
+    <string name="character_item_info_comics">Comics</string>
+    <string name="character_item_info_stories">Stories</string>
+    <string name="character_item_info_events">Events</string>
+    <string name="character_item_info_series">Series</string>
+    <string name="character_item_info_modified_date">Last Modified</string>
 </resources>

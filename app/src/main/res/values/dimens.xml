@@ -5,6 +5,19 @@
     <dimen name="card_elevation">2dp</dimen>
     <dimen name="card_corner_radius">12dp</dimen>
     <dimen name="character_list_header_margin">72dp</dimen>
+
     <dimen name="header_margin">24dp</dimen>
     <dimen name="margin_normal">16dp</dimen>
+
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_x_small">6dp</dimen>
+    <dimen name="margin_xx_small">4dp</dimen>
+
+    <dimen name="character_item_image_height">164dp</dimen>
+    <dimen name="character_item_favorite_size">24dp</dimen>
+
+    <dimen name="character_item_name_text_size">18sp</dimen>
+
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_x_small">12sp</dimen>
 </resources>

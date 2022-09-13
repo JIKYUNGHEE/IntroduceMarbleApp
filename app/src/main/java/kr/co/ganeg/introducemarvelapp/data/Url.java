@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarvelapp.api.data;
+package kr.co.ganeg.introducemarvelapp.data;
 
 public class Url {
     public static final String TYPE_DETAIL = "detail";

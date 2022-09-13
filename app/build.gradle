@@ -18,7 +18,7 @@ android {
     }
     defaultConfig {
         applicationId "kr.co.ganeg.introducemarvelapp"
-        minSdkVersion 15
+        minSdkVersion 23
         targetSdkVersion 32
         versionCode 1
         versionName "1.0"
@@ -68,7 +68,12 @@ dependencies {
 
     //hilt
     implementation "com.google.dagger:hilt-android:2.42"
+    implementation 'androidx.cardview:cardview:1.0.0'
     kapt "com.google.dagger:hilt-android-compiler:2.42"
+
+    //glide
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
 
     //Test
     testImplementation 'junit:junit:4.13.2'

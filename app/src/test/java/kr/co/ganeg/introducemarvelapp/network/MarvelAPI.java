@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import kr.co.ganeg.introducemarvelapp.BuildConfig;
 import kr.co.ganeg.introducemarvelapp.api.auth.AuthenticatorInterceptor;
-import kr.co.ganeg.introducemarvelapp.api.data.CharacterDataWrapper;
+import kr.co.ganeg.introducemarvelapp.data.CharacterDataWrapper;
 import kr.co.ganeg.introducemarvelapp.network.api.MarvelService;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

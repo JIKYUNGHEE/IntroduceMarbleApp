@@ -1,4 +1,4 @@
-package kr.co.ganeg.introducemarvelapp.api.data;
+package kr.co.ganeg.introducemarvelapp.data;
 
 import java.util.Arrays;
 

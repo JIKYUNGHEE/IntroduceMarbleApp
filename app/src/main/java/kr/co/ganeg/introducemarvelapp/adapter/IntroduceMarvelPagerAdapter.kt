@@ -10,9 +10,6 @@ const val MY_FAVORITE_IST_PAGE_INDEX = 1
 
 class IntroduceMarvelPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
 
-    /**
-     * Mapping of the ViewPager page indexes to their respective Fragments
-     */
     private val tabFragmentsCreators: Map<Int, () -> Fragment> = mapOf(
         CHARACTER_LIST_PAGE_INDEX to { CharacterListFragment() },
         MY_FAVORITE_IST_PAGE_INDEX to { MyFavoriteListFragment() }
