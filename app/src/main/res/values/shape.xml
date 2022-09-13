@@ -39,7 +39,7 @@
         name="ShapeAppearance.IntroduceMarvel.FAB"
         parent="ShapeAppearance.MaterialComponents.SmallComponent" />
 
-    <!-- Add plant button -->
+    <!-- Add character button -->
     <dimen name="button_corner_radius">12dp</dimen>
 
 </resources>
