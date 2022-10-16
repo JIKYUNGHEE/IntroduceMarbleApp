@@ -35,7 +35,9 @@ class CharacterListFragment : Fragment() {
         viewModel.getCharacterResponseLiveData().observe(this, Observer { response ->
             if (response != null) {
                 Log.d(TAG, "response: $response")
-                Log.i(TAG, "entries: ${response.entries[0]}")
+                response.entries.forEach {
+                    Log.i(TAG, "entries_it: $it")
+                }
                 adapter.setItems(response.entries.toCollection(ArrayList()))
                 //binding.kidsCafeResultTextView.text = GsonBuilder().setPrettyPrinting().create().toJson(response)
             }

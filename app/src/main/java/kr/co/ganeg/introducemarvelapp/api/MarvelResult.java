@@ -54,4 +54,14 @@ public class MarvelResult<T> {
     public void setAttribution(@NonNull String attribution) {
         mAttribution = attribution;
     }
+
+    @Override
+    public String toString() {
+        return "MarvelResult{" +
+                "mOffset=" + mOffset +
+                ", mTotal=" + mTotal +
+                ", mEntries=" + mEntries +
+                ", mAttribution='" + mAttribution + '\'' +
+                '}';
+    }
 }
